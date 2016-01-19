@@ -193,7 +193,7 @@
     </script>
 
     <script>
-     
+
 	function getParameterByName(name) {
 	  var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
 	  return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
@@ -219,10 +219,10 @@
 	    dataType: 'json',
 	  })
 
-	   .success(function() {
+	   .done(function() {
 	    $('#reset-password-panel-body').html($('#reset-password-template').html());
-            console.log(url);
 	     $('#reset-password-btn').on('click', function(e) {
+               $('#reset-password-form .form-group:has(input[type=password])').addClass('has-error').find('#helpBlock2').remove();	       
 	      e.preventDefault();
 	      $.ajax({
 		type: "POST",
@@ -234,15 +234,15 @@
 		  "password_confirm": $('#reset-password-password-confirm').val()
 		},
 		dataType: 'json',
-	      }).success(function() {
+	      }).done(function(e,a ,b) {
 		$('#reset-password-panel-body').html($('#reset-password-success-template').html());
-	      }).error(function(e, a, b) {
-		$('#reset-password-panel-body').html($('#reset-password-error-template').html());		
+	      }).fail(function(e, a, b) {
+		$('#reset-password-form .form-group:has(input[type=password])').addClass('has-error').append('<span id="helpBlock2" class="help-block">As senhas não conferem</span>');
 	      });
 	    });
 	   })
 
-	   .error(function(e, a, b) {
+	   .fail(function(e, a, b) {
 	    $('#reset-password-panel-body').html($('#reset-password-no-key-template').html());
 	  });
         });
