@@ -55,14 +55,19 @@ a {
 Main components 
 
 -------------------------------- */
+
+
+
 header {
   background-image: url(../../img/baixe-bg.jpg);
+  background-position: top;
   position: relative;
-  height: 180px;
-  line-height: 180px;
+  height: 80px;
+  line-height: 81px;
   text-align: center;
   background-color: #F95466;
 }
+
 header h1 {
   color: #ffffff;
   -webkit-font-smoothing: antialiased;
