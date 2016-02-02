@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Diaríssima ･ Cuide bem de quem cuida do seu lar</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/diarissima-minify.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+
+    <!-- Custom Fonts -->
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	 <![endif]-->
+
+  </head>
+
+  <body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand page-scroll" href="../index.html">
+            <!-- <img src="img/logo.svg"> -->
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="hidden">
+              <a href="#page-top"></a>
+            </li>
+            <li>
+              <a class="page-scroll" href="../index.html">Início</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="../index.html#services">Vantagens</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#">Ajuda</a>
+            </li>
+            <li class="btn-baixe">
+              <a class="page-scroll" href="../index.html#portfolio">Baixe o app!</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+      <h1>Confirmando email</h1>
+    </header>
+
+
+
+    <div class="container-fluid">
+
+      <div class="panel panel-default">
+	<div id="confirm-email-panel-body" class="panel-body">
+	</div>
+      </div>
+    </div>
+
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright &copy; Diaríssima 2015 - 2016</span>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li><a href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li><a href="#"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li><a href="#">Política de Privacidade</a>
+              </li>
+              <li><a href="#">Termos de Uso</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="../js/classie.js"></script>
+    <script src="../js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="../js/jqBootstrapValidation.js"></script>
+    <script src="../js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../js/agency.js"></script>
+
+    <script type="text/x-template" id="confirm-email-success-template">
+     <div id="reset-password-no-key" class="row">
+       <div class="alert alert-success" role="alert">Email confirmado com sucesso!</div>
+     </div>     
+    </script>
+
+
+    <script type="text/x-template" id="confirm-email-error-template">
+     <div id="reset-password-no-key" class="row">
+       <div class="alert alert-danger" role="alert">Não foi possível confirmar o email</div>
+     </div>
+
+    </script>
+    
+    
+    <script>
+
+	function getParameterByName(name) {
+	  var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+	  return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+	}
+
+	$(function() {
+	  var email = getParameterByName('email');
+	  var secret_key = getParameterByName('key');
+	  var subdomain = getParameterByName('_sd') || 'api';
+	  var schema = 'http';
+
+	  if(subdomain == 'hapi') { schema = 'https' ;}
+
+	  var url = schema + '://' + subdomain + '.diarissima.com.br/email/confirm';
+
+	  $.ajax({
+	    type: "HEAD",
+	    url: url,
+	    data: {
+	      "email": email,
+	      "key": secret_key,
+	    },
+	    dataType: 'json',
+	  })
+
+	   .done(function() {
+	     $('#confirm-email-panel-body').html($('#confirm-email-success-template').html());
+	   })
+
+	   .fail(function(e, a, b) {
+	     $('#confirm-email-panel-body').html($('#confirm-email-error-template').html());
+	  });
+        });
+
+    </script>
+    
+  </body>
+
+</html>
