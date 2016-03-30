@@ -46,7 +46,12 @@ body.cd-overlay::after {
 }
 
 a {
-  color: #666;
+  color: #F95466;
+  text-decoration: none;
+}
+
+b {
+  color: #F95466;
   text-decoration: none;
 }
 
@@ -359,14 +364,24 @@ header h1 {
     min-width:80px;
     float:left;
   }
-  .cd-faq-trigger {
+
+  .cd-faq-trigger-off a {
+  color: #F95466;
+  text-decoration: underline;
+  }
+
+  .cd-faq-lista {
     float:left;
     width:100%;
-      font-size: 18px;
+    font-size: 18px;
     font-weight: 300;
     margin: 0;
     padding: 24px 72px 24px 24px;
     text-decoration: none;
+  }
+
+  .cd-faq-lista a {
+    color:#666;
   }
 
   .whitediv{
