@@ -63,8 +63,8 @@ Main components
 header {
   background-image: url(../../img/baixe-bg.jpg);
   position: relative;
-  height: 100px;
-  line-height: 100px;
+  height: 150px;
+  line-height: 210px;
   text-align: center;
   background-color: #F95466;
 }
@@ -78,8 +78,8 @@ header h1 {
 }
 @media only screen and (min-width: 1024px) {
   header {
-    height: 200px;
-    line-height: 280px;
+    height: 300px;
+    line-height: 340px;
   }
   header h1 {
     text-transform: none;
@@ -409,3 +409,44 @@ header h1 {
     display: block;
   }
 }
+
+.cd-faq-items-release .cd-faq-trigger-off{
+
+  font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+    text-decoration: none;
+    line-height: 25px;
+}
+
+.cd-faq-items-release .cd-faq-trigger-off h2 {
+    font-size: 30px;
+    font-weight:bold;
+    text-transform: initial;
+    margin-bottom:40px;
+    line-height:40px;
+  }
+  .cd-faq-items-release .cd-faq-trigger-off h3 {
+    font-size: 20px;
+    font-weight:bold;
+    text-transform: initial;
+    color:#777;
+  }
+  .cd-faq-items-release .cd-faq-trigger-off h4 {
+    font-weight:bold;
+    text-transform: initial;
+    color:#F95466;
+    display:inline;
+    min-width:80px;
+    float:left;
+  }
+
+  .cd-faq-items-release .cd-faq-trigger-off a {
+  color: #F95466;
+  text-decoration: underline;
+  }
+
+  .cd-faq-items-release .whitediv{
+    background-color: white;
+    padding:50px 30px;
+  }
