@@ -14,7 +14,7 @@ Primary style
 }
 
 body {
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #4e5359;
   background-color: #f3f3f5;
 }
@@ -284,7 +284,7 @@ header h1 {
 
 .cd-faq-group {
   /* hide group not selected */
-  display: none;
+  display: block;
 }
 .cd-faq-group.selected {
   display: block;
@@ -380,9 +380,7 @@ header h1 {
     text-decoration: none;
   }
 
-  .cd-faq-lista a {
-    color:#666;
-  }
+
 
   .whitediv{
     background-color: white;
@@ -407,6 +405,11 @@ header h1 {
   }
   .no-js .cd-faq-content {
     display: block;
+  }
+    .cd-faq-items-release .whitediv{
+    background-color: white;
+    padding:70px 40px;
+    line-height:30px;
   }
 }
 
@@ -446,7 +449,12 @@ header h1 {
   text-decoration: underline;
   }
 
-  .cd-faq-items-release .whitediv{
+  .cd-faq-items-release .whitelist{
     background-color: white;
-    padding:50px 30px;
+    padding:30px;
+    line-height:30px;
+  }
+
+    .cd-faq-lista a {
+    color:#666;
   }
