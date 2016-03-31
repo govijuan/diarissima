@@ -203,9 +203,8 @@
 	  var email = getParameterByName('email');
 	  var secret_key = getParameterByName('key');
 	  var subdomain = getParameterByName('_sd') || 'api';
-	  var schema = 'http';
+	  var schema = 'https';
 
-	  if(subdomain == 'hapi') { schema = 'https' ;}
 
 	  var url = schema + '://' + subdomain + '.diarissima.com.br/forgot/reset-password';
 
