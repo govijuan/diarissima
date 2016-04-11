@@ -15,11 +15,12 @@
     <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="../css/diarissima-minify.css" rel="stylesheet">
+    <link href="../css/diarissima.css" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
     <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
 
     <!-- Custom Fonts -->
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
 
@@ -53,23 +54,25 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
+	                <li style="margin: 7px 4px"><a href="../quero-contratar" class="btn btn-warning topmenu-btn">Quero Contartar</a></li>
+                    <li style="margin: 7px 4px"><a href="../quero-prestar-servicos" class="btn btn-warning topmenu-btn">Quero prestar serviços</a></li>
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="../index.html">Início</a>
+                        <a class="page-scroll" href="../">Início</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="../index.html#services">Vantagens</a>
+                        <a class="page-scroll" href="../#services">Vantagens</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="../ajuda/index.html">Ajuda</a>
+                        <a class="page-scroll" href="../ajuda/">Ajuda</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="index.html">Notícias</a>
+                        <a class="page-scroll" href="/releases/">Notícias</a>
                     </li>
                     <li class="btn-baixe">
-                        <a class="page-scroll" href="../index.html#portfolio">Baixe o app!</a>
+                        <a class="page-scroll" href="../#portfolio">Baixe o app!</a>
                     </li>
                 </ul>
             </div>
@@ -181,30 +184,41 @@
     </section> <!-- cd-faq -->
 
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Diaríssima 2015 - 2016</span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Política de Privacidade</a>
-                        </li>
-                        <li><a href="#">Termos de Uso</a>
-                        </li>
-                    </ul>
-                </div>
+       <div class="container">
+                <div class="row diarissima-site-map-wrap">
+	            <div class="footer-logo-wrap col-lg-3 col-md-3 col-sm-3 col-xs-12">
+		            <img src="../img/diarissima-negativo.svg" alt="logo da diaríssima no rodapé"/>
+	            </div>
+	            <div class="footer-links col-lg-9 col-md-9 col-sm-9 col-xs-12">
+		            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+			            <a href="#" class="footer-link-big">Sobre</a><br>
+			            <a href="#" class="footer-link-small">A Diaríssima</a><br>
+			            <a href="#" class="footer-link-small">Termos de Uso</a><br>
+			            <a href="#" class="footer-link-small">Políticas de Privacidade</a><br>
+		            </div>
+		            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+			            <a href="#" class="footer-link-big">Como funciona</a><br>
+			            <a href="#" class="footer-link-small">Entenda</a><br>
+			            <a href="/quero-contratar" class="footer-link-small">Quero contratar</a><br>
+			            <a href="/quero-prestar-servicos" class="footer-link-small">Quero prestar serviços</a><br>
+		            </div>
+		            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+			            <a href="#" class="footer-link-big">Fale com a gente</a><br>
+			            <a href="ajuda/" class="footer-link-small">Ajuda</a><br>
+			            <a href="#" class="footer-link-small">Contato</a><br>
+		            </div>
+	            </div>    
+	            </div> 
             </div>
+            <div class="social-m-footer-wrap row">
+	            <h4>Siga-nos</h4>
+	            <ul>
+		            <li><a href="https://www.facebook.com/Diarissima"><i class="fa fa-facebook"></i></a></li>
+		            <li><a href="https://twitter.com/Diarissima"><i class="fa fa-twitter"></i></a></li>
+		            <li><a href="https://www.instagram.com/diarissima/"><i class="fa fa-instagram"></i></a></li>
+	            </ul>
+            </div>
+            <div class="creditos-footer">Copyright &copy; 2016 - Diaríssima</div>
         </div>
     </footer>
 
