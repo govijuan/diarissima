@@ -38,6 +38,9 @@
 </head>
 
 <body id="page-top" class="index">
+	
+	<?php include 'template_parts/analyticstracking.php'; ?>
+	
 	<?php include 'template_parts/main_nav.php'; ?>
 	
 	<?php include 'template_parts/header_q_contratar.php'; ?>

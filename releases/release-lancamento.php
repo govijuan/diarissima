@@ -34,7 +34,7 @@
 </head>
 
 <body id="page-top" class="index">
-
+<?php include '../template_parts/analyticstracking.php'; ?>
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -46,7 +46,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="../index.html">
+                <a class="navbar-brand page-scroll" href="/">
                     <!-- <img src="img/logo.svg"> -->
                 </a>
             </div>
@@ -186,25 +186,25 @@
     <footer>
        <div class="container">
                 <div class="row diarissima-site-map-wrap">
-	            <div class="footer-logo-wrap col-lg-3 col-md-3 col-sm-3 col-xs-12">
+	            <div class="footer-logo-wrap col-lg-3 col-md-3 col-sm-12 col-xs-12">
 		            <img src="../img/diarissima-negativo.svg" alt="logo da diaríssima no rodapé"/>
 	            </div>
-	            <div class="footer-links col-lg-9 col-md-9 col-sm-9 col-xs-12">
-		            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+	            <div class="footer-links col-lg-9 col-md-9 col-sm-12 col-xs-12">
+		            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 			            <a href="#" class="footer-link-big">Sobre</a><br>
 			            <a href="#" class="footer-link-small">A Diaríssima</a><br>
-			            <a href="#" class="footer-link-small">Termos de Uso</a><br>
+			            <a href="../termos-de-uso" class="footer-link-small">Termos de Uso</a><br>
 			            <a href="#" class="footer-link-small">Políticas de Privacidade</a><br>
 		            </div>
-		            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+		            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 			            <a href="#" class="footer-link-big">Como funciona</a><br>
 			            <a href="#" class="footer-link-small">Entenda</a><br>
-			            <a href="/quero-contratar" class="footer-link-small">Quero contratar</a><br>
-			            <a href="/quero-prestar-servicos" class="footer-link-small">Quero prestar serviços</a><br>
+			            <a href="../quero-contratar" class="footer-link-small">Quero contratar</a><br>
+			            <a href="../quero-prestar-servicos" class="footer-link-small">Quero prestar serviços</a><br>
 		            </div>
-		            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+		            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 			            <a href="#" class="footer-link-big">Fale com a gente</a><br>
-			            <a href="ajuda/" class="footer-link-small">Ajuda</a><br>
+			            <a href="../ajuda/" class="footer-link-small">Ajuda</a><br>
 			            <a href="#" class="footer-link-small">Contato</a><br>
 		            </div>
 	            </div>    

@@ -58,7 +58,10 @@ function alinhaSetasSliderBootstrap(){
 }
 
 $(window).load(function(){
-	resizeImgDestaqueContrataServe();
+	if (windowWidth > 992){
+		resizeImgDestaqueContrataServe();
+	}
+	
 	alinhaSetasSliderBootstrap();
 });
 $(document).ready(function(){
