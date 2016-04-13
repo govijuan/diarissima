@@ -55,7 +55,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Fale com a gente</h2>
-                    <h3 class="section-subheading text-muted white">Você pode tirar dúvidas <a href="ajuda/index.html">aqui</a> ou se preferir, entre em contato conosco.</h3>
+                    <h3 class="section-subheading text-muted white">Você pode tirar dúvidas <a href="/ajuda/">aqui</a> ou se preferir, entre em contato conosco.</h3>
                 </div>
             </div>
             <div class="row">
