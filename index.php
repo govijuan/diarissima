@@ -6,8 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Contrate um profissional de limpeza qualificado de maneira facil e rapida com o aplicativo Diarissima"></meta>
+    <meta name="keywords" content="diarista, diaristas, faxinas, faxineira, domestica, limpeza de casa, limpeza residencial, fachina, blumpa, parafuzo, fachineira, cuidados com o lar">
+    <meta name="author" content="Diarissima">
+    <meta http-equiv="refresh" content="30">
+    <meta name="robots" content="index, follow, noarchive">
 
     <title>Diaríssima ･ Cuide bem de quem cuida do seu lar</title>
 
@@ -31,24 +34,24 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
 </head>
 
 <body id="page-top" class="index">
-	<?php include 'template_parts/analyticstracking.php'; ?>	
+	<?php include 'template_parts/analyticstracking.php'; ?>
 
    <?php include 'template_parts/main_nav.php'; ?>
-   
+
    <?php include 'template_parts/header_home.php'; ?>
 
-   <?php include 'template_parts/vantagens.php'; ?>     
+   <?php include 'template_parts/vantagens.php'; ?>
 
    <?php include 'template_parts/baixe_app.php'; ?>
 
-    
+
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
@@ -94,4 +97,3 @@
         </div>
     </section>
 <?php include 'template_parts/footer.php'; ?>
-    
