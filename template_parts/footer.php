@@ -54,7 +54,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="<?php getBaseUrl();?>/js/agency.js"></script>
-     <script src="<?php getBaseUrl();?>/js/main.js"></script>
+    <script src="<?php getBaseUrl();?>/js/main.js"></script>
 
 </body>
 

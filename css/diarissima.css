@@ -259,12 +259,17 @@ fieldset[disabled] .btn-xl:hover {
     color: #fff
 }
 header {
-    background-image: url(../img/destaque.jpg);
+    background-image: url(../img/home-head-bg.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: top center;
     text-align: center;
     color: #fff;
+}
+.intro-text {background-image: url(../img/fundo-pessoas-home.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: 0 260px;
 }
 .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -274,17 +279,22 @@ header {
     margin-bottom: 25px
 }
 .intro-text .intro-heading {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
+    font-family: Montserrat-UltraLight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: none;
     font-size: 50px;
     line-height: 50px;
-    margin-bottom: 25px
+    margin-bottom: 25px;
+    margin-top: 0;
 }
 .intro-text {
-    padding-top: 36.89%;
+    padding-top: 150px;
     padding-bottom: 49%;
     position: relative;
+}
+.pre-txt{
+	font-family: Montserrat-UltraLight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #ffce86;
+	font-size: 25px
 }
 .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -794,24 +804,21 @@ img::-moz-selection {
 /*  ==========================================================================================
 	*****   Código adicionado por juan@eokoe.com  **********
     ==========================================================================================*/
-	/*.contratar-wrap{
-	    position: absolute; 
-	    background: rgba(256,30,40,0.5); 
-	    left: 10.5%; 
-	    width: 15%;
-		height: 16%; 
-		top: 43%
+	.contratar-wrap{
+	   	background-color: rgba(50,169,214,0.8);
+	   	float: left
 	}
 
 	.prestar-serv { 
-		position: absolute; 
-		background: rgba(40,30,40,0.5); 
-		width: 15%; 
-		height: 16%; 
-		top 49%; 
-		left: : 80.5%;
-		display: block
-	}*/
+		background-color: rgba(122,63,171,0.8);
+		float: right;
+	}
+	.contratar-wrap, .prestar-serv{
+		width: 200px;
+		height: 160px;
+		display: block;
+		border-radius: 10px;
+	} 
 	
 	header.q-c-header, .como-funciona-wrap{
 		background-color: #27b67c ;
