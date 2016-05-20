@@ -36,26 +36,20 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li style="margin: 7px 4px"><a href="<?php getBaseUrl();?>/quero-contratar" class="btn btn-warning topmenu-btn">Quero Contartar</a></li>
-                    <li style="margin: 7px 4px"><a href="<?php getBaseUrl();?>/quero-prestar-servicos" class="btn btn-warning topmenu-btn">Quero prestar serviços</a></li>
+                    <li class="f-left"><a href="<?php getBaseUrl();?>/quero-contratar" >Quero Contartar</a></li>
+                    <li class="f-left"><a href="<?php getBaseUrl();?>/quero-prestar-servicos">Quero prestar serviços</a></li>
                     
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="<?php getBaseUrl();?>/">Início</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="/#services">Vantagens</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="<?php getBaseUrl();?>/ajuda/">Ajuda</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="<?php getBaseUrl();?>/releases/">Notícias</a>
+                        <a class="page-scroll" href="<?php getBaseUrl();?>/releases/">Na mídia</a>
                     </li>
-                    <li class="btn-baixe">
-                        <a class="page-scroll" href="<?php getBaseUrl();?>#portfolio">Baixe o app!</a>
+                    <li>
+                        <a class="page-scroll" href="<?php getBaseUrl();?>#portfolio">Diaríssima</a>
                     </li>
                 </ul>
             </div>

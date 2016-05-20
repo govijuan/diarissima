@@ -9,7 +9,6 @@
     <meta name="description" content="Contrate um profissional de limpeza qualificado de maneira facil e rapida com o aplicativo Diarissima"></meta>
     <meta name="keywords" content="diarista, diaristas, faxinas, faxineira, domestica, limpeza de casa, limpeza residencial, fachina, blumpa, parafuzo, fachineira, cuidados com o lar">
     <meta name="author" content="Diarissima">
-    <meta http-equiv="refresh" content="30">
     <meta name="robots" content="index, follow, noarchive">
 
     <title>Diaríssima ･ Cuide bem de quem cuida do seu lar</title>

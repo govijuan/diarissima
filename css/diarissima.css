@@ -21,7 +21,6 @@ h6 {
 .btn-primary,
 .btn-xl,
 .intro-heading,
-.navbar-default .nav li a,
 h1,
 h2,
 h3,
@@ -75,10 +74,10 @@ a:active,
 a:focus,
 a:hover {
     outline: 0;
-    text-decoration: none
+    text-decoration: none;
     color: #FF9666
 }
-a:not('.footer-link-big') {
+a:not(.footer-link-big) {
     color: #F95466
 }
 
@@ -194,9 +193,9 @@ fieldset[disabled] .btn-xl:hover {
     background-color: #fff
 }
 .navbar-default .nav li a {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat-Light', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
-    letter-spacing: 1px;
+    letter-spacing: 0.6px;
     color: #fff
 }
 .navbar-default .nav li a:focus,
@@ -286,11 +285,7 @@ header {
     margin-bottom: 25px;
     margin-top: 0;
 }
-.intro-text {
-    padding-top: 150px;
-    padding-bottom: 49%;
-    position: relative;
-}
+
 .pre-txt{
 	font-family: Montserrat-UltraLight, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #ffce86;
@@ -534,6 +529,13 @@ footer ul.quicklinks {
         text-align: left;
         padding: 0 30px 20px 20px
     }
+    
+    .intro-text {
+			    padding-top: 130px;
+			    padding-bottom: 500px;
+			    position: relative;
+    }
+    
 }
 @media (min-width: 992px) {
     .timeline>li .timeline-panel,
@@ -554,6 +556,21 @@ footer ul.quicklinks {
         line-height: 26px
     }
     .standard-header h1{line-height: 300px; font-size: 50px;}
+    .contratar-wrap, .prestar-serv{
+			width: 175px;
+			height: 160px;
+			display: block;
+			border-radius: 10px;
+	} 
+	.navbar-nav > li{float: right; }
+	.contratar-wrap{margin-top: 20%}
+	.prestar-serv{margin-top: 16.8%}
+	.intro-text {
+			    padding-top: 150px;
+			    padding-bottom: 620px;
+			    position: relative;
+    }
+    .f-left {float: left!important; }
 }
 @media (min-width: 1200px) {
     .timeline>li {
@@ -572,6 +589,20 @@ footer ul.quicklinks {
     }
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 100px 20px 20px
+    }
+    
+    .contratar-wrap, .prestar-serv{
+			width: 210px;
+			height: 190px;
+			display: block;
+			border-radius: 10px;
+	} 
+	.contratar-wrap{margin-top: 24%;}
+	.prestar-serv{margin-top: 16.8%}
+	.intro-text {
+			    padding-top: 150px;
+			    padding-bottom: 750px;
+			    position: relative;
     }
 }
 .team-member {
@@ -805,7 +836,7 @@ img::-moz-selection {
 	*****   Código adicionado por juan@eokoe.com  **********
     ==========================================================================================*/
 	.contratar-wrap{
-	   	background-color: rgba(50,169,214,0.8);
+	   	background-color: rgba(21,188,254,0.8);
 	   	float: left
 	}
 
@@ -813,12 +844,7 @@ img::-moz-selection {
 		background-color: rgba(122,63,171,0.8);
 		float: right;
 	}
-	.contratar-wrap, .prestar-serv{
-		width: 200px;
-		height: 160px;
-		display: block;
-		border-radius: 10px;
-	} 
+	
 	
 	header.q-c-header, .como-funciona-wrap{
 		background-color: #27b67c ;
@@ -890,13 +916,13 @@ img::-moz-selection {
 	.carousel-inner > .item{padding: 7%;}
 	.wider-navbar-d{ margin: 0 10px 0 }
 	.c-f-img-wrap img{width: 70%; height: auto;}
-	.topmenu-btn{font-size: 10px; margin: 0px 3px; padding: 7px 9px!important; background-color: #ff9966}
-	a.topmenu-btn:hover{color: #fff!important; background-color: rgba(255,153,102,0.6)!important;}
 	@media screen and (min-width:768px) and (max-width: 991px){
 		.c-f-img-wrap img{ width: 100%; height: auto;}
+		.nav > li > a{padding: 16px 10px 10px!important;}
 	}
 	@media screen and (min-width: 1200px){
 		.c-f-img-wrap img{width: 50%; height: auto;}
+		
 	}
 	@media screen and (max-width: 767px){
 		.c-f-img-wrap img{width: 50%; height: auto}
@@ -909,9 +935,9 @@ img::-moz-selection {
 		.q-c-foto-header-wrap img{
 			margin: 20px 0 40px;
 		}
-		.footer-links {text-align: center; margin: 40px 0 0}
-		.footer-link-big{ margin: 20px 0 0}
-		.footer-links a { text-align: center }
+		.footer-links {text-align: center; margin: 40px 0 0;}
+		.footer-link-big{ margin: 20px 0 0;}
+		.footer-links a { text-align: center; }
 		.standard-header h1{font-size: 20px;}
 		
 	}
@@ -921,7 +947,9 @@ img::-moz-selection {
 	.term-usi-inner p{font-size: 18px;}
 	.termu-ol li ul{list-style: none; }
 	.termu-ol li{margin: 20px 0}
-
 	
+	.f-left a{font-family: 'Montserrat-SemiBold'!important}
+	
+	.navbar-nav{width: calc( 100% - 270px );}
 	
 	
