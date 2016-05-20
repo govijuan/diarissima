@@ -962,6 +962,9 @@ img::-moz-selection {
 	@media screen and (max-width:480px){
 		.contratar-wrap h3, .prestar-serv h3{height: 79px}
 		.contratar-wrap, .prestar-serv{border-radius: 10px}
+		.downl-google-play{width: 129.6px!important}
+		.downl-app-store{width: 115.2px!important}
+		.apps-download-links-wrap{margin: 50px 0 0}
 	}
 	@media screen and (min-width:768px) and (max-width: 991px){
 		.c-f-img-wrap img{ width: 100%; height: auto;}
