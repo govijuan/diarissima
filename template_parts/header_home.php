@@ -20,4 +20,8 @@
 		        </a>
             </div>
         </div>
+        <div class=" container apps-download-links-wrap">
+	        <a class="downl-google-play"><img src="/img/google-play-badge.svg"/></a>
+	        <a class="downl-app-store"><img src="/img/App_Store_Badge_PTBR.svg"/></a>
+        </div>
     </header>

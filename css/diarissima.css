@@ -503,6 +503,7 @@ footer ul.quicklinks {
 .contratar-wrap, 	.prestar-serv{ width: 48%;}
 .contratar-wrap{margin: 0px 2% 0px 0px}
 .prestar-serv{margin: 0 0 0 2%}
+.apps-download-links-wrap{text-align: center; margin-top: -5.1%;}
 @media (min-width: 481px){
 	.intro-text {
 			    padding-top: 80px;
@@ -570,7 +571,7 @@ footer ul.quicklinks {
 	.intro-text .intro-heading{font-size: 50px;}
     .pre-txt{font-size: 25px}
     .contratar-wrap h3, .prestar-serv h3{margin-top: 10px!important}
-    
+    .apps-download-links-wrap{margin-top: -45px;}
 }
 @media (min-width: 992px) {
     .timeline>li .timeline-panel,
@@ -607,6 +608,7 @@ footer ul.quicklinks {
     }
     .f-left {float: left!important; }
     .contratar-wrap h3, .prestar-serv h3{font-size: 26px; }
+    .apps-download-links-wrap{margin-top: -55px;}
 }
 @media (min-width: 1200px) {
     .timeline>li {
@@ -996,5 +998,14 @@ img::-moz-selection {
 	.f-left a{font-family: 'Montserrat-SemiBold'!important}
 	
 	.navbar-nav{width: calc( 100% - 270px );}
+	/* **************************************
+		
+		Botões download na home
+		
+	   ************************************** */
+	   
 	
 	
+	.downl-google-play{width: 18%; display: inline-block}
+	.downl-app-store {width: 16%; display: inline-block}
+	.downl-google-play img{width: 100%; height: auto}
