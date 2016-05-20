@@ -489,10 +489,15 @@ footer ul.quicklinks {
     text-transform: none
 }
 
-.contratar-wrap h3, .prestar-serv h3{color: #fff; padding: 0 7%}
+.contratar-wrap h3, .prestar-serv h3{color: #fff; padding: 0 7%; margin-bottom: 0px;}
+.contratar-wrap span{color: #7be8ff; float: right; margin: 0 8%;}
+.prestar-serv span{color: #db9dff; float: left; margin: 0 8%;}
 .contratar-wrap h3{text-align: right}
 .prestar-serv h3{text-align: left}
-
+.prestar-serv .seta-img-wrap{float: right; margin: 4% 8%;}
+.contratar-wrap .seta-img-wrap{float: right; margin: 4% 4%;}
+.seta-img-wrap {width: 30%}
+.seta-img-wrap img{width: 100%; height: auto}
 @media (min-width: 481px){
 	.intro-text {
 			    padding-top: 80px;
@@ -861,11 +866,14 @@ img::-moz-selection {
 	   	background-color: rgba(21,188,254,0.8);
 	   	float: left
 	}
+	.contratar-wrap:hover{background-color: rgba(21,188,254,1);}
 
 	.prestar-serv { 
 		background-color: rgba(122,63,171,0.8);
 		float: right;
 	}
+	
+	.prestar-serv:hover{background-color: rgba(122,63,171,1);}
 	
 	
 	header.q-c-header, .como-funciona-wrap{
