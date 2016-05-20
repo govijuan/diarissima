@@ -26,7 +26,7 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-var windowWidth = $('body').width();
+/*var windowWidth = $('body').width();
 function resizeImgDestaqueContrataServe(){
 	var containerWidth = $('.container').width();
 	var containerMargin = ((windowWidth - containerWidth ) / 2);
@@ -42,7 +42,7 @@ function resizeImgDestaqueContrataServe(){
 	$('.links-soc-wrap').css('margin-top', '-' + (bottomMargin / 2) + 'px');
 }
 
-/* Para alinhar as setas customizadas no slide feito pelo bootstrap */
+/* Para alinhar as setas customizadas no slide feito pelo bootstrap 
 function containerFix(){
 	if(windowWidth > 768 && windowWidth < 1200 ){
 		$('.navbar.navbar-default div:first-child').removeClass('container'). addClass('wider-navbar-d');
@@ -63,10 +63,27 @@ $(window).load(function(){
 	}
 	
 	alinhaSetasSliderBootstrap();
-});
+});*/
 $(document).ready(function(){
 	$('.como-funciona-carousel').carousel({
 		interval: 5000
 	});
-	containerFix();
+	$('#na-midia-slide').carousel(
+		interval: 10000
+	);
+	
+	$('.carousel .item').each(function(){
+		  var next = $(this).next();
+		  if (!next.length) {
+		    next = $(this).siblings(':first');
+		  }
+		  next.children(':first-child').clone().appendTo($(this));
+		  
+		  if (next.next().length>0) {
+		    next.next().children(':first-child').clone().appendTo($(this));
+		  }
+		  else {
+		  	$(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+		  }
+	});
 });

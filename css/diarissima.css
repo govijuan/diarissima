@@ -643,6 +643,7 @@ footer ul.quicklinks {
 			    position: relative;
     }
     .contratar-wrap h3, .prestar-serv h3{font-size: 36px}
+    .nas-midias-home h2{font-size: 	50px}
 }
 .team-member {
     text-align: center;
@@ -992,23 +993,36 @@ img::-moz-selection {
 		
 	}
 	
-	.term-uso-body{background-color: #f3f3f5; color: #4e5359;}
-	.term-usi-inner { width: 90%; background-color: #fff; max-width: 1024px; position: relative; margin: 4em auto; padding: 70px 40px 40px; line-height: 25px;}
-	.term-usi-inner p{font-size: 18px;}
-	.termu-ol li ul{list-style: none; }
-	.termu-ol li{margin: 20px 0}
+.term-uso-body{background-color: #f3f3f5; color: #4e5359;}
+.term-usi-inner { width: 90%; background-color: #fff; max-width: 1024px; position: relative; margin: 4em auto; padding: 70px 40px 40px; line-height: 25px;}
+.term-usi-inner p{font-size: 18px;}
+.termu-ol li ul{list-style: none; }
+.termu-ol li{margin: 20px 0}
+
+.f-left a{font-family: 'Montserrat-SemiBold'!important}
+
+.navbar-nav{width: calc( 100% - 270px );}
+/* **************************************
 	
-	.f-left a{font-family: 'Montserrat-SemiBold'!important}
+	Botões download na home
 	
-	.navbar-nav{width: calc( 100% - 270px );}
-	/* **************************************
-		
-		Botões download na home
-		
-	   ************************************** */
-	   
+   ************************************** */
+   
 	
 	
-	.downl-google-play{width: 18%; display: inline-block}
-	.downl-app-store {width: 16%; display: inline-block}
-	.downl-google-play img{width: 100%; height: auto}
+.downl-google-play{width: 18%; display: inline-block}
+.downl-app-store {width: 16%; display: inline-block}
+.downl-google-play img{width: 100%; height: auto}
+.nas-midias-home h2, .subt-secao-n-m{font-family: 'Montserrat-Hairline'; text-align: center}
+	
+/* **************************************
+	
+	Estilos para op Carousel na seção 'Na Midia' da Home
+	
+***************************************** */
+
+.carousel-inner .item div a img{width: 100%; height: auto}
+.carousel-inner .active.left { left: -25%; }
+.carousel-inner .next        { left:  25%; }
+.carousel-inner .prev        { left: -25%; }
+.carousel-control.left,.carousel-control.right {background-image:none;}

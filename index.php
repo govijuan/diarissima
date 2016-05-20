@@ -46,7 +46,7 @@
 
    <?php include 'template_parts/header_home.php'; ?>
 
-   <?php include 'template_parts/vantagens.php'; ?>
+   <?php include 'template_parts/nas-midias-home.php'; ?>
 
    <?php include 'template_parts/baixe_app.php'; ?>
 
