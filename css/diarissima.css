@@ -8,7 +8,6 @@ h5,
 h6 {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
-    text-transform: uppercase
 }
 .btn-primary.active,
 .btn-primary:active,
@@ -18,17 +17,7 @@ h6 {
 .open .dropdown-toggle.btn-xl {
     background-image: none
 }
-.btn-primary,
-.btn-xl,
-.intro-heading,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    text-transform: uppercase
-}
+
 body {
     overflow-x: hidden;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -280,7 +269,7 @@ header {
 .intro-text .intro-heading {
     font-family: Montserrat-UltraLight, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: none;
-    font-size: 50px;
+    font-size: 30px;
     line-height: 50px;
     margin-bottom: 25px;
     margin-top: 0;
@@ -289,7 +278,7 @@ header {
 .pre-txt{
 	font-family: Montserrat-UltraLight, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #ffce86;
-	font-size: 25px
+	font-size: 15px
 }
 .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -499,6 +488,29 @@ footer ul.quicklinks {
 .timeline .timeline-heading h4.subheading {
     text-transform: none
 }
+
+.contratar-wrap h3, .prestar-serv h3{color: #fff; padding: 0 7%}
+.contratar-wrap h3{text-align: right}
+.prestar-serv h3{text-align: left}
+
+@media (min-width: 481px){
+	.intro-text {
+			    padding-top: 80px;
+			    padding-bottom: 81.1%;
+			    position: relative;
+    }
+    .contratar-wrap, .prestar-serv{
+			width: 18.5%;
+			height: 120px;
+			display: block;
+			border-radius: 10px;
+	} 
+	.contratar-wrap{margin-top: 36%}
+	.prestar-serv{margin-top: 19.5%}
+	.contratar-wrap h3, .prestar-serv h3{
+		font-size: 20px
+	}
+}
 @media (min-width: 768px) {
     .timeline:before {
         left: 50%
@@ -535,7 +547,16 @@ footer ul.quicklinks {
 			    padding-bottom: 500px;
 			    position: relative;
     }
-    
+    .contratar-wrap, .prestar-serv{
+			width: 135px;
+			height: 125px;
+			display: block;
+			border-radius: 10px;
+	} 
+	.contratar-wrap{margin-top: 26%}
+	.prestar-serv{margin-top: 19.5%}
+	.intro-text .intro-heading{font-size: 50px;}
+    .pre-txt{font-size: 25px}
 }
 @media (min-width: 992px) {
     .timeline>li .timeline-panel,
@@ -593,7 +614,7 @@ footer ul.quicklinks {
     
     .contratar-wrap, .prestar-serv{
 			width: 210px;
-			height: 190px;
+			height: 205px;
 			display: block;
 			border-radius: 10px;
 	} 
@@ -604,6 +625,7 @@ footer ul.quicklinks {
 			    padding-bottom: 750px;
 			    position: relative;
     }
+    .contratar-wrap h3, .prestar-serv h3{font-size: 36px}
 }
 .team-member {
     text-align: center;
