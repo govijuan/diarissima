@@ -254,10 +254,11 @@ header {
     text-align: center;
     color: #fff;
 }
-.intro-text {background-image: url(../img/fundo-pessoas-home.png);
+.intro-text {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: 0 260px;
+	padding-top: 80px;
 }
 .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -495,9 +496,13 @@ footer ul.quicklinks {
 .contratar-wrap h3{text-align: right}
 .prestar-serv h3{text-align: left}
 .prestar-serv .seta-img-wrap{float: right; margin: 4% 8%;}
-.contratar-wrap .seta-img-wrap{float: right; margin: 4% 4%;}
+.contratar-wrap .seta-img-wrap{float: left; margin: 4% 8%;}
 .seta-img-wrap {width: 30%}
 .seta-img-wrap img{width: 100%; height: auto}
+.prestar-serv span, .contratar-wrap span{font-size: 11px}
+.contratar-wrap, 	.prestar-serv{ width: 48%;}
+.contratar-wrap{margin: 0px 2% 0px 0px}
+.prestar-serv{margin: 0 0 0 2%}
 @media (min-width: 481px){
 	.intro-text {
 			    padding-top: 80px;
@@ -511,10 +516,12 @@ footer ul.quicklinks {
 			border-radius: 10px;
 	} 
 	.contratar-wrap{margin-top: 36%}
-	.prestar-serv{margin-top: 19.5%}
+	.prestar-serv{margin-top: 31%}
 	.contratar-wrap h3, .prestar-serv h3{
 		font-size: 20px
 	}
+	.intro-text{ background-image: url(../img/fundo-pessoas-home.png); }
+	.contratar-wrap .seta-img-wrap{float: right; margin: 4% 4%;}
 }
 @media (min-width: 768px) {
     .timeline:before {
@@ -562,6 +569,8 @@ footer ul.quicklinks {
 	.prestar-serv{margin-top: 19.5%}
 	.intro-text .intro-heading{font-size: 50px;}
     .pre-txt{font-size: 25px}
+    .contratar-wrap h3, .prestar-serv h3{margin-top: 10px!important}
+    
 }
 @media (min-width: 992px) {
     .timeline>li .timeline-panel,
@@ -589,7 +598,7 @@ footer ul.quicklinks {
 			border-radius: 10px;
 	} 
 	.navbar-nav > li{float: right; }
-	.contratar-wrap{margin-top: 20%}
+	.contratar-wrap{margin-top: 23%}
 	.prestar-serv{margin-top: 16.8%}
 	.intro-text {
 			    padding-top: 150px;
@@ -597,6 +606,7 @@ footer ul.quicklinks {
 			    position: relative;
     }
     .f-left {float: left!important; }
+    .contratar-wrap h3, .prestar-serv h3{font-size: 26px; }
 }
 @media (min-width: 1200px) {
     .timeline>li {
@@ -836,7 +846,7 @@ img::-moz-selection {
 }
 @media (max-width: 767px) {
     header {
-        background-position: 0 40px;
+        background-position: 0 51px;
     }
     .navbar-default {
         background: #f95466;
@@ -857,6 +867,7 @@ img::-moz-selection {
         height: 35px;
         margin-top: 5px
     }
+    .intro-text .intro-heading{text-shadow: 2px 2px rgba(0,0,0,0.188);}
 }
 
 /*  ==========================================================================================
@@ -946,6 +957,10 @@ img::-moz-selection {
 	.carousel-inner > .item{padding: 7%;}
 	.wider-navbar-d{ margin: 0 10px 0 }
 	.c-f-img-wrap img{width: 70%; height: auto;}
+	@media screen and (max-width:480px){
+		.contratar-wrap h3, .prestar-serv h3{height: 79px}
+		.contratar-wrap, .prestar-serv{border-radius: 10px}
+	}
 	@media screen and (min-width:768px) and (max-width: 991px){
 		.c-f-img-wrap img{ width: 100%; height: auto;}
 		.nav > li > a{padding: 16px 10px 10px!important;}
