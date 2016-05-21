@@ -24,6 +24,7 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Kaushan+Script|Droid+Serif:400,700,400italic,700italic|Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <!-- <link href="css/fonts.css" rel="stylesheet" type="text/css"> -->
+    <link href="css/fonts.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -49,8 +50,8 @@
 	
 	<?php include 'template_parts/vantagens.php'; ?>
 	
-	<?php include 'template_parts/como_funciona_q_contratar.php'?>
+	<!-- ?php include 'template_parts/como_funciona_q_contratar.php'? -->
    
-	<?php include 'template_parts/baixe_app.php'; ?>
+	<!-- ?php include 'template_parts/baixe_app.php'; ? -->
    
 	<?php include 'template_parts/footer.php'; ?>
