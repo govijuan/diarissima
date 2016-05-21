@@ -39,13 +39,13 @@
             <div class="depoimentos-serv-contr col-lg-9 col-md-9 col-sm-12">
 			        <h2 style="font-family: &quot;Montserrat-Hairline&quot;,sans-serif; font-weight: 100; font-size: 38px;">Depoimentos</h2>
 			        <div class="depoimento col-lg-4 col-md-4 col-sm-12">
-                <img src="img/depoimentos/francisca-mello.png">
-				        <h4 style="color: rgb(9, 173, 236);">Francisca Mello</h4>
+								<img src="img/depoimentos/katia-romao.png">
+				        <h4 style="color: rgb(9, 173, 236);">Katia Lima Romão</h4>
 				        <p>"Excelente o serviço de faxina. Fiquei muito satisfeita com a qualidade e agilidade do serviço!"</p>
 			        </div>
 			        <div class="depoimento col-lg-4 col-md-4 col-sm-12">
-								<img src="img/depoimentos/katia-romao.png">
-				        <h4 style="color: rgb(9, 173, 236);">Katia Lima Romão</h4>
+                <img src="img/depoimentos/francisca-mello.png">
+				        <h4 style="color: rgb(9, 173, 236);">Francisca Mello</h4>
 				        <p>"Muito obrigada pelo serviço. A rita é uma excelente profissional. fiquei muito feliz. Irei pedir sempre com vocês."</p>
 			        </div>
 			        <div class="depoimento col-lg-4 col-md-4 col-sm-12">

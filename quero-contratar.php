@@ -36,6 +36,15 @@
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
+    <style>
+      p {
+          font-size: 14px;
+          line-height: 1.75;
+          font-family: 'Montserrat-Light';
+          font-weight: 500;
+      }
+    </style>
+
 </head>
 
 <body id="page-top" class="index">
