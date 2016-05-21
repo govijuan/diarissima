@@ -3,7 +3,7 @@
         <div class="container-fluid">
           <div style="top: 150px; margin-top: 150px;" class="row">
             <div class="col-md-6">
-              <h2 style="">Quero contratar</h2>
+              <h2 style="font-family: &quot;Montserrat-Hairline&quot;,sans-serif; font-weight: 100; font-size: 38px; line-height: 38px;">Quero contratar</h2>
             </div>
             <div style="background: #f7f7f7 none repeat scroll 0% 0%; min-height: 70px;" class="col-md-6">
             </div>
@@ -35,17 +35,20 @@
 				        <li><a href="https://www.facebook.com/Diarissima"><i class="fa fa-facebook"></i></a></li>
 			        </ul>
 		        </div>
-		        <div class="depoimentos-serv-contr col-lg-9 col-md-9 col-sm-12">
-			        <h2>Depoimentos</h2>
+            <div class="depoimentos-serv-contr col-lg-9 col-md-9 col-sm-12">
+			        <h2 style="font-family: &quot;Montserrat-Hairline&quot;,sans-serif; font-weight: 100; font-size: 38px;">Depoimentos</h2>
 			        <div class="depoimento col-lg-4 col-md-4 col-sm-12">
+                <img src="img/depoimentos/francisca-mello.png">
 				        <h4>Francisca Mello</h4>
 				        <p>"Excelente o serviço de faxina. Fiquei muito satisfeita com a qualidade e agilidade do serviço!"</p>
 			        </div>
 			        <div class="depoimento col-lg-4 col-md-4 col-sm-12">
+								<img src="img/depoimentos/katia-romao.png">
 				        <h4>katia lima Romão</h4>
 				        <p>"Muito obrigada pelo serviço. A rita é uma excelente profissional. fiquei muito feliz. Irei pedir sempre com vocês."</p>
 			        </div>
 			        <div class="depoimento col-lg-4 col-md-4 col-sm-12">
+								<img src="img/depoimentos/francisco-mello.png">
 				        <h4>Francisco Mello</h4>
 				        <p>"Ja estava cansado de pedir referências a amigos e me decepcionar. A diarista foi muito educada e eficiente. Recomendo"</p>
 			        </div>
