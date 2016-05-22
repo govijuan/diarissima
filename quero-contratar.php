@@ -43,6 +43,15 @@
           font-family: 'Montserrat-Light';
           font-weight: 500;
       }
+      footer a:not(.footer-link-big) {
+          color: #FFF;
+          font-size: 10px;
+      }
+      .footer-link-big {
+          color: #ff9966;
+          margin: 0 0 10px 0;
+          display: block;
+      }
     </style>
 
 </head>
