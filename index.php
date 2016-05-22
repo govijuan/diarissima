@@ -21,7 +21,9 @@
 
     <!-- Custom Favicon -->
     <link rel="icon" href="/favicon.ico?v=1.1">
-
+    <!--  Slick Slider Styles  -->
+    <link href="css/slick.css" rel="stylesheet" type="text/css">
+    <link href="css/slick-theme.css" rel="stylesheet" type="text/css">
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!--<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700,200,300|Kaushan+Script|Droid+Serif:400,700,400italic,700italic|Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>-->

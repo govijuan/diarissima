@@ -45,16 +45,19 @@
 
     <!-- Plugin JavaScript -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="<?php getBaseUrl();?>/js/classie.js"></script>
     <script src="<?php getBaseUrl();?>/js/cbpAnimatedHeader.js"></script>
 
     <!-- Contact Form JavaScript -->
     <script src="<?php getBaseUrl();?>/js/jqBootstrapValidation.js"></script>
     <script src="<?php getBaseUrl();?>/js/contact_me.js"></script>
-
+    <!-- Slick Slider javascript -->
+    <script src="<?php getBaseUrl();?>/js/slick.min.js"></script>
     <!-- Custom Theme JavaScript -->
     <script src="<?php getBaseUrl();?>/js/agency.js"></script>
     <script src="<?php getBaseUrl();?>/js/main.js"></script>
+    
 
 </body>
 

@@ -957,7 +957,6 @@ img::-moz-selection {
 	.standard-header{ height: 300px; line-height: 340px; background-image: url(../img/baixe-bg.jpg);}
 	.standard-header h1{ text-transform: none;  font-weight: 300; margin: 0}
 	.c-f-txt-wrap{text-align: left}
-	.carousel-inner > .item{padding: 7%;}
 	.wider-navbar-d{ margin: 0 10px 0 }
 	.c-f-img-wrap img{width: 70%; height: auto;}
 	@media screen and (max-width:480px){
@@ -1020,9 +1019,5 @@ img::-moz-selection {
 	Estilos para op Carousel na seção 'Na Midia' da Home
 	
 ***************************************** */
-
-.carousel-inner .item div a img{width: 100%; height: auto}
-.carousel-inner .active.left { left: -25%; }
-.carousel-inner .next        { left:  25%; }
-.carousel-inner .prev        { left: -25%; }
-.carousel-control.left,.carousel-control.right {background-image:none;}
+.slick-slide a{display: block}
+.slick-slide a img{width:100%}

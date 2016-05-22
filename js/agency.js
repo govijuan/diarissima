@@ -68,22 +68,10 @@ $(document).ready(function(){
 	$('.como-funciona-carousel').carousel({
 		interval: 5000
 	});
-	$('#na-midia-slide').carousel(
-		interval: 10000
-	);
-	
-	$('.carousel .item').each(function(){
-		  var next = $(this).next();
-		  if (!next.length) {
-		    next = $(this).siblings(':first');
-		  }
-		  next.children(':first-child').clone().appendTo($(this));
-		  
-		  if (next.next().length>0) {
-		    next.next().children(':first-child').clone().appendTo($(this));
-		  }
-		  else {
-		  	$(this).siblings(':first').children(':first-child').clone().appendTo($(this));
-		  }
+	$('.nas-midias-slider').slick({
+		 infinite: true,
+		 slidesToShow: 4,
+		 slidesToScroll: 1,
+		 autoplay: false,
 	});
 });
