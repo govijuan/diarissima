@@ -1,7 +1,7 @@
 
 <header class="q-c-header" style="background: rgb(9, 173, 236) none repeat scroll 0% 0%;">
         <div class="container-fluid">
-          <div style="top: 150px; margin-top: 150px;" class="row">
+          <div style="margin-top: 125px;" class="row">
             <div class="col-md-6">
               <h2 style="font-family: &quot;Montserrat-Hairline&quot;,sans-serif; font-weight: 100; font-size: 38px; line-height: 38px;">Quero contratar</h2>
             </div>
