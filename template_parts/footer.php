@@ -1,4 +1,4 @@
-<footer style="background-color: rgb(68, 68, 68); background-image: url(&quot;../img/bg-ilustra-footer.png&quot;) ! important; background-repeat: repeat; background-size: 600px 600px;">
+<footer style="background-color: rgb(68, 68, 68); background-image: url(&quot;../img/bg-ilustra-footer.png&quot;) ! important; background-repeat: repeat; background-size: 600px 600px; padding: 75px 0px 50px; box-shadow: 0px 50px 10px rgba(0, 0, 0, 0.25) inset;">
        <div class="container">
             <div class="row diarissima-site-map-wrap">
 	            <div class="footer-logo-wrap col-lg-2 col-md-2 col-sm-12 col-xs-12">
@@ -29,6 +29,7 @@
                 </div>
 	            </div> 
             </div>
+
             <div class="social-m-footer-wrap row">
               <p>
                 <a href="#"><img src="img/baixe-applestore-sm.png"></a>
@@ -43,7 +44,8 @@
             </div>
             <div class="creditos-footer">Copyright © 2016 - Diaríssima</div>
         
-    </footer>
+    </div>
+</footer>
 
 <!--
 <footer>
